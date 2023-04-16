@@ -3,27 +3,31 @@
     margin: 0;
 }
 
-header{
-    background-color: #FFF8F3;
-    background-image: url(images/developer.png), url(images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: left, bottom right;
+
+
+.header{
+   background-image: url(images/developer.png), url(images/header_bg.png);
+   background-repeat: no-repeat;
+   background-position: left, bottom right;
+   background-color: #FFF8F3;
 }
 
 nav{
     display: flex;
-    justify-content: space-between;
     padding: 50px 200px;
+    justify-content: space-between;
+
 }
 
 .nav-title{
-    font-size: 45px;
     font-weight: 800;
+    font-size: 45px;
 }
 
 .text-color{
-    color: orange;
+    color:#FD6E0A;
 }
+
 
 nav ul{
     display: flex;
@@ -35,13 +39,36 @@ nav ul li{
     margin-left: 50px;
 }
 
-.btn-first{
-    color: #fff;
-    background-color: #FD6E0A;
-    height: 64px;
+.btn-primary{
     padding: 18px 35px;
-    font-size: 20px;
+    background-color: #FD6E0A;
     border: 0;
-    font-weight: 700;
     border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 64px;
+}
+
+.banner{
+    display: flex;
+    margin: 0px 200px;
+    align-items: center;
+}
+
+.banner-sub-title{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
