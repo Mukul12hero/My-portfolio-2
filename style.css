@@ -76,8 +76,8 @@ nav ul li{
 /* main part start */
 
 main{
-   max-width: 1140px;
-   margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 section{
@@ -86,20 +86,20 @@ section{
 
 .about{
     background: #FFF8F3;
-    padding: 130px 150px;
     text-align: center;
+    padding: 130px 150px;
     border-radius: 10px;
 }
 
 .about-title{
     font-size: 35px;
-    margin-bottom: 45px;
-    font-weight: 700;
+    margin-bottom: 50px;
+    font-weight: 700;    
 }
 
 .about-description{
-    color: #757575;
     font-size: 18px;
+    color: #757575;
     margin-bottom: 30px;
 }
 
@@ -119,8 +119,6 @@ section{
 
 .info-description{
     font-size: 20px;
-    font-weight: 700;
     color: #474747;
+    font-weight: 700;
 }
-
-
