@@ -156,3 +156,40 @@ section{
 .skill-description{
     color: #757575;
 }
+
+/* Resume part start */
+
+.resume-content{
+    display: flex;
+    gap: 30px;;
+}
+
+.qualification-title{
+    margin: 30px 0px;
+    font-size: 18px;
+}
+
+
+.resume-btn{
+    text-align: center;
+}
+
+.qualification-name1{
+    font-size: 26px;
+    color: #474747;
+}
+
+.qualification-name2{
+    font-size: 20px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.qualification-description{
+    color: #757575;
+}
+
+.qualifacation-item{
+    margin: 30px 0px;
+}
