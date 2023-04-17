@@ -91,13 +91,7 @@ section{
     border-radius: 10px;
 }
 
-.about-title{
-    font-size: 35px;
-    margin-bottom: 50px;
-    font-weight: 700;    
-}
-
-.about-description{
+.section-description{
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
@@ -132,6 +126,7 @@ section{
     font-size: 35px;
     text-align: center;
     margin-bottom: 50px;
+    font-weight: 700;
 }
 
 .skill-container{
@@ -161,17 +156,17 @@ section{
 
 .resume-content{
     display: flex;
-    gap: 30px;;
+    gap: 24px;;
 }
 
 .qualification-title{
-    margin: 30px 0px;
-    font-size: 18px;
+
 }
 
 
 .resume-btn{
     text-align: center;
+    margin-top: 50px;
 }
 
 .qualification-name1{
@@ -191,5 +186,39 @@ section{
 }
 
 .qualifacation-item{
-    margin: 30px 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+/* form area start */
+   
+.form-area{
+    background: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+
+.form-area .section-title{
+    text-align: left;
+}
+
+.form-text{
+    display: block;
+}
+
+.form-area a{
+    text-decoration: none;
+}
+
+input{
+    height: 64px;
+}
+
+.form-area input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    border: 0;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+}
+/* form area end */
